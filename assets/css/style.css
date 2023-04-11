@@ -931,6 +931,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   min-height: 78px;
 }
 
+
 .single-service-box .service-icon img {
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
@@ -938,13 +939,13 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 
 .single-service-box .service-content h3 {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 30px;
   margin: 49px 0 19px;
   -webkit-transition: all 1s ease 0s;
   transition: all 1s ease 0s;
 }
 
-.single-service-box .service-content p {
+.row mt-60x .service-content p {
   line-height: 30px;
   padding-right: 20px;
 }
