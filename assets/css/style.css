@@ -966,6 +966,144 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 /*================================================
 5. Course Area CSS
 =================================================*/
+.event-block {
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	cursor: pointer;
+	height: 12;
+	width: 100%;
+	max-width: 72rem;
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	background: #fff;
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03), 1px 0 1px rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03), 1px 0 1px rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
+	box-shadow: 0 0 3px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03), 1px 0 1px rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
+}
+
+
+
+.event-block .hyperlink {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* .event-block:hover {
+	background: #f7f7f7;
+} */
+
+.event-block .calendar-block {
+	float: left;
+	background: #0089c8;
+	color: #fff;
+	width: 12rem;
+	height: 100%;
+	padding: 2.5rem 0.5rem;
+	text-align: center;
+	-webkit-border-radius: 4px 0 0 4px;
+	        border-radius: 4px 0 0 4px;
+}
+
+.event-block .calendar-block p.calendar_date {
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+.event-block .event-details-block {
+	text-align: left;
+	overflow: hidden;
+	width: auto;
+	height: 100%;
+	position: relative;
+}
+
+.event-block .event-details-block p.event_name {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	color: #0089c8;
+	font-size: 1.6rem;
+	font-weight: bold;
+	padding: 1rem;
+}
+
+/* .event-block .event-details-block div.event_details_extra {
+	position: absolute;
+	bottom: 1rem;
+	padding: 5rem;
+	width: 100%;
+} */
+
+/* .event-block .event-details-block div.event_details_extra p {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+} */
+
+@media only screen and (max-width: 32em) {
+	.event-block {
+		height: 9rem;
+	}
+	.event-block .calendar-block {
+		width: 9rem;
+		padding: 1rem 0.5rem;
+	}
+	.event-block .event-details-block p.event_name {
+		padding: 0.5rem;
+		font-size: 1.3rem
+	}
+	.event-block .event-details-block div.event_details_extra {
+		padding: 0 0.5rem;
+	}
+	.event-block .event-details-block div.event_details_extra p {
+		line-height: 1.5rem;
+	}
+}
+
+/* End event block */
+
+/***** Start events list page *****/
+#events_page {
+	text-align: center;
+}
+
+#events_page div.event-column {
+	text-align: center;
+}
+
+#events_page div.event-block {
+	margin-bottom: 2rem;
+}
+
+#events_page #past_events {
+	margin-top: 5rem;
+}
+
+#events_page #past_events .event-block .calendar-block {
+	background: #a3a3a3;
+}
+
+#events_page #past_events .event-block .event-details-block p.event_name {
+	color: #838383;
+}
+
+#events_page #past_events #past_events_heading {
+	margin-bottom: 2rem;
+}
+
+#events_page #past_events #past_events_heading span {
+	font-size: 1.5rem;
+}
+
+#events_page #past_events #past_events_heading #past_events_year_select {
+	width: 10rem;
+	margin-left: 2px;
+}
+
 .courses-area {
   padding-left: 90px;
   padding-right: 90px;
