@@ -2279,9 +2279,9 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 18. Hero area three CSS
 =================================================*/
 .hero-style-three {
-  background-image: unset;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgba(39, 18, 123, 0.64)), to(rgba(39, 18, 123, 0.64))), url(../images/hero-bg-3.png);
-  background: linear-gradient(rgba(39, 18, 123, 0.64) 100%, rgba(39, 18, 123, 0.64) 100%), url(../images/hero-bg-3.png);
+  background-image: unset; 
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgba(39, 18, 123, 0.64)), to(rgba(39, 18, 123, 0.64))), url(../images/HOMEpic.jpeg); 
+  background: linear-gradient(rgba(39, 18, 123, 0.64) 100%, rgba(39, 18, 123, 0.64) 100%), url(../images/HOMEpic.jpeg); 
   background-repeat: no-repeat !important;
   background-size: 100% 100%;
   padding: 290px 30px 189px;
