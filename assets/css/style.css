@@ -992,13 +992,11 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
     right: 0;
 }
 
-/* .event-block:hover {
-	background: #f7f7f7;
-} */
+
 
 .event-block .calendar-block {
 	float: left;
-	background: #0089c8;
+	background: #1A064E;
 	color: #fff;
 	width: 12rem;
 	height: 100%;
@@ -1025,24 +1023,13 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 	text-overflow: ellipsis;
 	overflow: hidden;
 	white-space: nowrap;
-	color: #0089c8;
+	color: #1A064E;
 	font-size: 1.6rem;
 	font-weight: bold;
 	padding: 1rem;
 }
 
-/* .event-block .event-details-block div.event_details_extra {
-	position: absolute;
-	bottom: 1rem;
-	padding: 5rem;
-	width: 100%;
-} */
 
-/* .event-block .event-details-block div.event_details_extra p {
-	text-overflow: ellipsis;
-	overflow: hidden;
-	white-space: nowrap;
-} */
 
 @media only screen and (max-width: 32em) {
 	.event-block {
