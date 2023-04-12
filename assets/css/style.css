@@ -984,15 +984,6 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 
 
 
-.event-block .hyperlink {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-
 
 .event-block .calendar-block {
 	float: left;
@@ -1028,6 +1019,11 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 	font-weight: bold;
 	padding: 1rem;
 }
+.event_details_extra{
+  padding: 0 0.5rem;
+  bottom: 1rem;
+}
+
 
 
 
@@ -1043,12 +1039,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 		padding: 0.5rem;
 		font-size: 1.3rem
 	}
-	.event-block .event-details-block div.event_details_extra {
-		padding: 0 0.5rem;
-	}
-	.event-block .event-details-block div.event_details_extra p {
-		line-height: 1.5rem;
-	}
+
 }
 
 /* End event block */
@@ -1066,30 +1057,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 	margin-bottom: 2rem;
 }
 
-#events_page #past_events {
-	margin-top: 5rem;
-}
 
-#events_page #past_events .event-block .calendar-block {
-	background: #a3a3a3;
-}
-
-#events_page #past_events .event-block .event-details-block p.event_name {
-	color: #838383;
-}
-
-#events_page #past_events #past_events_heading {
-	margin-bottom: 2rem;
-}
-
-#events_page #past_events #past_events_heading span {
-	font-size: 1.5rem;
-}
-
-#events_page #past_events #past_events_heading #past_events_year_select {
-	width: 10rem;
-	margin-left: 2px;
-}
 
 .courses-area {
   padding-left: 90px;
