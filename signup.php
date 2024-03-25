@@ -208,7 +208,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
                
                
             </div>
-            <form id="contact-form" action="signup.php" method="post" class="contact-input mt-5 position-relative">
+            <form action="signup.php" method="post" class="contact-input mt-5 position-relative">
                <div class="row">
                 <label>Registration Number</label>
                 <input type="text" name="reg_no" placeholder="Register no">
